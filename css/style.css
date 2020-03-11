@@ -24,9 +24,9 @@ ul{
     /*theme colors*/
     --text-gray:#3f4954
     --text-light:#686666da;
-    --bg-color:#0f0f0f
-    --white:#ffffff
-    --midnight:#104f55
+    --bg-color:#0f0f0f;
+    --white:#ffffff;
+    --midnight:#104f55;
     /*gradiant color*/
     --sky:background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     /*theme font family*/
@@ -53,6 +53,7 @@ ul{
     padding: 1rem 0;
     font-family: var(--Abel);
 text-decoration:none;
+font-size: 1.6rem;
 }
 .nav .nav-menu{
     justify-content: space-between;
@@ -66,7 +67,15 @@ text-decoration:none;
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
 position: relative;
+font-family: var(--Lexend-Deca);
+font-size: 1.1rem; 
 }
+.nav .nav-items .nav-link:hover
+{
+    background-color:var(--midnight);
+
+}
+
 .nav .social{
     padding: 1.4rem 0;
 }
