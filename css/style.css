@@ -1,3 +1,5 @@
+
+@import url(../css/fonts.css);
 html,body{
 margin:0%;
 box-sizing: border-box;
@@ -7,7 +9,7 @@ overflow-x: hidden;
 
 a{
     text-decoration: none;
-
+color: var(--text-gray);
 }
 .flex-row{
     display: flex;
@@ -18,6 +20,23 @@ ul{
     list-style-type: none;
 
 }
+:root{
+    /*theme colors*/
+    --text-gray:#3f4954
+    --text-light:#686666da;
+    --bg-color:#0f0f0f
+    --white:#ffffff
+    --midnight:#104f55
+    /*gradiant color*/
+    --sky:background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /*theme font family*/
+--Abel:'Abel',cursive;
+--Anton:'Anton',cursive;
+--Josefin-Sans:'Josefin',cursive;
+--Lexend-Deca:'Lexend',cursive;
+--Livvic:'Livvic',cursive;
+}
+
 
 /*------x----------GlobalClasses-----x-----------*/
 
@@ -32,7 +51,8 @@ ul{
 .nav .nav-brand a{
     font-size: 1.6rem;
     padding: 1rem 0;
-text-decoration:none ;
+    font-family: var(--Abel);
+text-decoration:none;
 }
 .nav .nav-menu{
     justify-content: space-between;
