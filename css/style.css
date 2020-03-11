@@ -90,16 +90,13 @@ color: #a1c4cf;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------x------------navbar------x--------*/
+/*----- viewport less than or equal tp 750 px*/
+@media only screen and (max-width:750px){
+    .nav .nav-menu{
+       flex-direction: column;
+    }
+}
+
+
+/*---x-- viewport less than or equal tp 750 px-----x-*/
