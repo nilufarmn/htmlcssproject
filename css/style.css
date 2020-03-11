@@ -45,7 +45,7 @@ ul{
     background-color: white;
     padding:0 2rem ;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 8vh;
     overflow: hidden;
 }
 .nav .nav-brand a{
@@ -88,13 +88,31 @@ font-size: 1.1rem;
 .nav .social i:hover{
 color: #a1c4cf;
 }
-
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
 
 /*---------x------------navbar------x--------*/
 /*----- viewport less than or equal tp 750 px*/
 @media only screen and (max-width:750px){
-    .nav .nav-menu{
+    .nav .nav-menu,.nav .nav-items{
        flex-direction: column;
+    }
+    .nav .toggle-collapse{
+        display: initial;
     }
 }
 
