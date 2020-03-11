@@ -75,11 +75,19 @@ font-size: 1.1rem;
     background-color:var(--midnight);
 
 }
+.nav .nav-items .nav-link a{
+    background-color: var(--white);
+}
 
 .nav .social{
     padding: 1.4rem 0;
 }
-
+.nav .social i{
+    padding:0 .2rem;
+}
+.nav .social i:hover{
+color: #a1c4cf;
+}
 
 
 
