@@ -1,9 +1,9 @@
-$(document).readyState(function(){
+$(document).ready(function(){
 $nav=$('.nav');
-$toggle-collapse=$('."toggle-collapse');
+$toggleCollapse=$('.toggle-collapse');
 /**click event on toggle menu* */
-toggle-collapse.click(function(){
+$toggleCollapse.click(function(){
 $nav.$toggleClass('collapse');
 }
 )
-} )
+});
