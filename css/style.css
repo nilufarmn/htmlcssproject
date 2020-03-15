@@ -110,6 +110,25 @@ color: #a1c4cf;
 }
 
 /*---------x------------navbar------x--------*/
+/*-----------------Main content---------------*/
+/**--------------Site-title-----------------**/
+main .site-title{
+    background: url('../Images/17311.jpg');
+    background-size: cover;
+    height: 110vh;
+};
+
+
+
+
+
+
+
+
+/**------x--------Site-title----------x-------**/
+
+/*------x-----------Main content------x---------*/
+
 /*----- viewport less than or equal tp 750 px*/
 @media only screen and (max-width:750px){
     .nav .nav-menu,.nav .nav-items{
