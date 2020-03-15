@@ -118,7 +118,12 @@ main .site-title{
     height: 110vh;
     display: flex;
     justify-content: center
-};
+}
+main .site-title .site-background{
+padding-top: 10rem;
+color: white;
+text-align: center;
+}
 
 
 
