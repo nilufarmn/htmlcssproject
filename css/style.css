@@ -20,6 +20,24 @@ ul{
     list-style-type: none;
 
 }
+h1{
+    font-family: var(--Lexend-Deca);
+    font-size: 2.5rem;
+}
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+h2{
+    font-family: var(--Lexend-Deca);
+}
+button.btn{
+    border-radius: 2rem;
+    padding:1rem 3rem ;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
 :root{
     /*theme colors*/
     --text-gray:#3f4954
@@ -121,10 +139,18 @@ main .site-title{
 }
 main .site-title .site-background{
 padding-top: 10rem;
-color: white;
+color:blue;
 text-align: center;
 }
+main .site-title h1,h3{
+    margin: 0.3rem;
 
+}
+main .site-title .btn{
+    margin:1.8rem;
+    background-color: var(--sky);
+
+}
 
 
 
