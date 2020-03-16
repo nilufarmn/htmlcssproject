@@ -151,6 +151,11 @@ main .site-title .btn{
     background-color: var(--sky);
 
 }
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
 
 
 
